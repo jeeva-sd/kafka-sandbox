@@ -16,7 +16,7 @@ async function runConsumer() {
     eachMessage: async ({ message }) => {
       if (!message.value) return;
       const data: UserEvent = JSON.parse(message.value.toString());
-      console.log(`[Eco App 2] Analytics updated for user: ${data.userId}`);
+      console.log(`[Eco App 2] Analytics updated for user: ${data.name}`);
     },
   });
 }
