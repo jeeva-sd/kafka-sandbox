@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "rootDir": "./",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "main-app/src/**/*",
+      "eco-app-1/src/**/*",
+      "eco-app-2/src/**/*"
+    ],
+    "exclude": ["node_modules", "dist"]
+  }
+  
